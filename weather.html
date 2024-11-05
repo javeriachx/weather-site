@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form onsubmit="getWeather(); return false;">
+    <div>
+    <label for="city">City name</label>
+    <input
+    type="text"
+    name="city"
+    id="city"
+    placeholder="Enter City name"
+    />
+</div>
+<button type="submit">Get</button>
+</form>
+<div>
+    <h1>Celsius</h1>
+<h2 id="temp_c"></h2>
+<h3>Fahrenheight</h3>
+<h4 id="temp_f"></h4>
+</div>
+    <script src="weather.js"></script>
+</body>
+</html>
